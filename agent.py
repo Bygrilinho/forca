@@ -2,6 +2,10 @@
 
 # =============== IMPORTS =============== #
 
+# Definir variável de ambiente para o SWI-Prolog
+import os
+os.environ['SWI_HOME_DIR'] = 'C:\\Program Files\\swipl' # Alterar se necessário
+
 from pyswip import Prolog
 import string
 import sys

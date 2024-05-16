@@ -22,4 +22,4 @@ SWI-Prolog: [FATAL ERROR:
         Could not find system resources]
 ```
 
-Defina a variável de ambiente `SWI_HOME_DIR` como o seu diretório de instalação do SWI Prolog (geralmente `C:\Program Files\swipl`)
+Altere a variável de ambiente `SWI_HOME_DIR` no `agent.py` para o seu diretório de instalação do SWI Prolog
