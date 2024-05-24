@@ -14,6 +14,11 @@ Para executar, você precisa instalar:
   ```
   pip install git+https://github.com/yuce/pyswip@master#egg=pyswip 
   ```
+E então, execute o script:
+
+```
+python agent.py
+```
 
 Importante: Se tiver o seguinte erro:
 
@@ -23,3 +28,9 @@ SWI-Prolog: [FATAL ERROR:
 ```
 
 Altere a variável de ambiente `SWI_HOME_DIR` no `agent.py` para o seu diretório de instalação do SWI Prolog
+
+## Lista de palavras
+
+Você precisa fornecer uma lista de palavras para utilizar o agente. Baixe o arquivo "br-sem-acentos.txt", disponível em [https://www.ime.usp.br/~pf/dicios/](https://www.ime.usp.br/~pf/dicios/)
+
+Para a conversão, você pode utilizar o script disponível em `words.py`. Após a execução, um arquivo `words.pl` será gerado, pronto para uso.
